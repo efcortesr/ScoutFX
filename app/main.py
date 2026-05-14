@@ -14,6 +14,13 @@ import sys
 # Agregar src al path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+# Inyectar variables de entorno desde st.secrets para Streamlit Cloud
+try:
+    if "GOOGLE_API_KEY" in st.secrets:
+        os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
+except Exception:
+    pass
+
 from src.agents.embedding_agent import query_similar_players
 from src.agents.llm_analyst import generate_scout_report, generate_bargain_report
 from langchain_google_genai import ChatGoogleGenerativeAI
