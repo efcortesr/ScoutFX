@@ -1,0 +1,34 @@
+# ── Data ──
+soccerdata
+pandas
+numpy
+tqdm
+thefuzz
+python-Levenshtein
+
+# ── Machine Learning ──
+scikit-learn
+xgboost
+hdbscan
+umap-learn
+shap
+joblib
+
+# ── Embeddings + Vector DB ──
+sentence-transformers
+chromadb
+
+# ── LLM + Agentes ──
+langchain
+langchain-google-genai
+langchain-community
+google-generativeai
+python-dotenv
+
+# ── Visualización ──
+plotly
+matplotlib
+seaborn
+
+# ── Frontend ──
+streamlit

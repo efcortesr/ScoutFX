@@ -1,0 +1,24 @@
+# API Keys — NUNCA subir
+.env
+
+# Datos crudos grandes (documentar cómo descargar en README)
+data/raw/
+
+# Modelos grandes (documentar cómo re-entrenar en README)
+models/checkpoints/*.pkl
+models/checkpoints/chromadb/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
