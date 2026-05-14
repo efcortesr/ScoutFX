@@ -35,7 +35,7 @@ pip install -r requirements.txt
 Crear archivo `.env` en la raíz del proyecto:
 
 ```
-GOOGLE_API_KEY=AIzaSy_xxxxxxxxxxxxxxxxxxxxxx
+GOOGLE_API_KEY=xxxxxxxxxxxxxxxxxxxxxx
 ```
 
 Obtener gratis en: https://aistudio.google.com/apikey
@@ -82,7 +82,7 @@ Abrir: **http://localhost:8501**
 football-iq-eafit/
 ├── README.md
 ├── requirements.txt
-├── .env                          # NO subir a GitHub
+├── .env                          
 ├── .gitignore
 ├── docs/
 │   ├── informe_final.pdf
