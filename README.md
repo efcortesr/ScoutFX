@@ -50,19 +50,6 @@ Obtener gratis en: https://aistudio.google.com/apikey
 2. Descargar `players.csv`
 3. Guardar en `data/raw/players.csv`
 
-### Paso 2 — Ejecutar notebooks en orden
-
-```bash
-jupyter notebook
-```
-
-Ejecutar en orden:
-```
-notebooks/01_eda.ipynb            # ~5 min
-notebooks/02_clustering.ipynb     # ~10 min
-notebooks/03_market_value.ipynb   # ~5 min
-notebooks/04_rag_agent.ipynb      # ~8 min
-```
 
 ---
 
@@ -132,15 +119,7 @@ football-iq-eafit/
 
 ## 🎥 Video Demo
 
-📹 **Link:** [Insertar link aquí]
+📹 **Link:** [https://eafit-my.sharepoint.com/:v:/g/personal/efcortesr_eafit_edu_co/IQDF9MVmQJ8fSLI3fpZABGkSAaXB2dOYkdVSlJh_G-F3xHg?e=yOkZgr]
 
 ---
 
-## 👥 Integrantes del Equipo
-
-| Nombre | Correo | Contribución |
-|--------|--------|-------------|
-| Nombre 1 | correo1@eafit.edu.co | Data Agent + EDA |
-| Nombre 2 | correo2@eafit.edu.co | ML Agent (XGBoost + Clustering) |
-| Nombre 3 | correo3@eafit.edu.co | RAG + LLM Agent |
-| Nombre 4 | correo4@eafit.edu.co | Frontend + Integración |
